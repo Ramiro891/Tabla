@@ -1,0 +1,38 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  
+  table {
+    border: 3px solid black;
+    width: 80%;
+    border-spacing: 0;
+    margin: 0 auto;
+  }
+  
+  th {
+    background-color: rgb(171, 12, 207);
+    color: bisque;
+  }
+  
+  td {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid rgba(8, 8, 8, 0.574);
+  }
+  
+  tr:nth-child(odd) {
+    background-color: rgb(206, 106, 228);
+    color: azure;
+  }
+  
+  .descripcion {
+    width: 40%;
+  }
+  
+  .contenedor1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
